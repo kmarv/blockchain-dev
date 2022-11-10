@@ -8,12 +8,10 @@ const networkConfig = {
         ethUsdPriceFeed: "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e",
     },
 }
- const developmentChains=["hardhat", "localhost"]
- const DECIMALS = 8
- const INITIAL_ANS = 200000000
-module.exports={
+
+const developmentChains = ["hardhat", "localhost"]
+
+module.exports = {
     networkConfig,
     developmentChains,
-    DECIMALS,
-    INITIAL_ANS
 }

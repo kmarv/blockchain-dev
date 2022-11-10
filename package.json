@@ -19,6 +19,13 @@
     "hardhat-gas-reporter": "^1.0.9",
     "solidity-coverage": "^0.8.0",
     "solint": "^0.0.1",
-    "typechain": "^8.1.0"
+    "typechain": "^8.1.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "ethereum-waffle": "^3.4.0"
+  },
+  "scripts": {
+    "test": "hardhat test",
+    "test:staging": "hardhat test --network goerli",
+    "coverage": "hardhat coverage"
   }
 }
